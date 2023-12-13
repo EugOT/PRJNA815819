@@ -1,0 +1,78 @@
+  |                                   |                           |   0%  |                                   |..                         |   8%                                             |                                   |....                       |  15% (seed-set-by-workflowr)                     |                                   |......                     |  23%                                             |                                   |........                   |  31% (setup)                                     |                                   |..........                 |  38%                                             |                                   |............               |  46% (params)                                  [1] "Start: 2023-03-06 13:23:34"
+[1] "Stop: 2023-03-06 13:23:34"
+Time difference of 0.02510023 secs
+  |                                   |...............            |  54%                                             |                                   |.................          |  62% (parent-chunk-name)                       [1] "Start: 2023-03-06 13:23:34"
+[1] "Stop: 2023-03-06 13:23:34"
+Time difference of 0.006937981 secs
+  |                                   |...................        |  69%                                             |                                 |                         |   0%  |                                 |                         |   1%                                              (load)                                      [1] "Start: 2023-03-06 13:23:34"
+[1] "Stop: 2023-03-06 13:23:43"
+Time difference of 9.246539 secs
+  |                                 |                         |   2%                                               |                                 |.                        |   2% (pl-vln-qc)                                 [1] "Start: 2023-03-06 13:23:43"
+[1] "Stop: 2023-03-06 13:23:46"
+Time difference of 3.251771 secs
+  |                                 |.                        |   3%                                               |                                 |.                        |   4% (pl-scatter-qc)                             [1] "Start: 2023-03-06 13:23:46"
+[1] "Stop: 2023-03-06 13:23:49"
+Time difference of 2.514418 secs
+                                               |                                 |.                        |   5% (pl-scatter-qc-comb-mito)                   [1] "Start: 2023-03-06 13:23:49"
+[1] "Stop: 2023-03-06 13:23:50"
+Time difference of 1.336166 secs
+                                               |                                 |.                        |   6% (pl-scatter-qc-comb-ribo)                   [1] "Start: 2023-03-06 13:23:50"
+[1] "Stop: 2023-03-06 13:23:52"
+Time difference of 1.292452 secs
+  |                                 |..                       |   7%                                              (pl-scatter-qc-comb-complexity)             [1] "Start: 2023-03-06 13:23:52"
+[1] "Stop: 2023-03-06 13:23:53"
+Time difference of 1.265095 secs
+  |                                 |..                       |   8%                                              (pl-scatter-doublets-log-prob)              [1] "Start: 2023-03-06 13:23:53"
+[1] "Stop: 2023-03-06 13:23:54"
+Time difference of 0.932327 secs
+  |                                 |..                       |   9%                                               |                                 |..                       |  10% (pl-scatter-qc-comb-doublets)               [1] "Start: 2023-03-06 13:23:54"
+[1] "Stop: 2023-03-06 13:23:55"
+Time difference of 1.284182 secs
+  |                                 |...                      |  10%                                               |                                 |...                      |  11% (unnamed-chunk-1)                           [1] "Start: 2023-03-06 13:23:55"
+[1] "Stop: 2023-03-06 13:23:55"
+Time difference of 0.07130122 secs
+                                               |                                 |...                      |  12% (pl-scatter-doublets-log-prob-qc-categories)[1] "Start: 2023-03-06 13:23:55"
+[1] "Stop: 2023-03-06 13:23:57"
+Time difference of 1.473756 secs
+  |                                 |...                      |  13%                                              (pl-init-dr-hvg)                            [1] "Start: 2023-03-06 13:23:57"
+[1] "Stop: 2023-03-06 13:28:03"
+Time difference of 4.102845 mins
+  |                                 |...                      |  14%                                               |                                 |....                     |  14% (pl-init-dr-pca-genes)                      [1] "Start: 2023-03-06 13:28:03"
+[1] "Stop: 2023-03-06 13:28:21"
+Time difference of 18.54051 secs
+  |                                 |....                     |  15%                                               |                                 |....                     |  16% (update-gene-lists-rna)                     [1] "Start: 2023-03-06 13:28:21"
+[1] "Stop: 2023-03-06 13:28:21"
+Time difference of 0.1406302 secs
+                                               |                                 |....                     |  17% (pl-init-dr-pca-heatmap)                    [1] "Start: 2023-03-06 13:28:21"
+[1] "Stop: 2023-03-06 13:28:22"
+Time difference of 0.6282837 secs
+                                               |                                 |....                     |  18% (pl-init-dr-pca-embedding)                  [1] "Start: 2023-03-06 13:28:22"
+[1] "Stop: 2023-03-06 13:28:23"
+Time difference of 0.6212471 secs
+  |                                 |.....                    |  19%                                              (pl-init-dr-pca-elbow)                      [1] "Start: 2023-03-06 13:28:23"
+[1] "Stop: 2023-03-06 13:28:23"
+Time difference of 0.2357712 secs
+  |                                 |.....                    |  20%                                              (pl-init-dr-pca-jackstraw)                  [1] "Start: 2023-03-06 13:28:23"
+[1] "Stop: 2023-03-06 13:30:09"
+Time difference of 1.761546 mins
+  |                                 |.....                    |  21%                                               |                                 |.....                    |  22% (pl-init-dr)                                [1] "Start: 2023-03-06 13:30:09"
+[1] "Stop: 2023-03-06 13:30:09"
+Time difference of 0.07936239 secs
+  |                                 |......                   |  22%                                               |                                 |......                   |  23% (pl-init-dr-umap)                           [1] "Start: 2023-03-06 13:30:09"
+[1] "Stop: 2023-03-06 13:30:42"
+Time difference of 33.18331 secs
+                                               |                                 |......                   |  24% (pl-init-dr-resolution)                     [1] "Start: 2023-03-06 13:30:42"
+[1] "Stop: 2023-03-06 13:30:45"
+Time difference of 2.757966 secs
+  |                                 |......                   |  25%                                              (pl-init-dr-clustree)                       [1] "Start: 2023-03-06 13:30:45"
+[1] "Stop: 2023-03-06 13:31:25"
+Time difference of 40.55593 secs
+  |                                 |......                   |  26%                                               |                                 |.......                  |  26% (init-clustree-stability)                   [1] "Start: 2023-03-06 13:31:25"
+[1] "Stop: 2023-03-06 13:31:26"
+Time difference of 1.144532 secs
+  |                                 |.......                  |  27%                                               |                                 |.......                  |  28% (init-clustree-genes)                       [1] "Start: 2023-03-06 13:31:26"
+[1] "Stop: 2023-03-06 13:31:53"
+Time difference of 1.260158 secs
+                                               |                                 |.......                  |  29% (pl-mrtree-init-tree)                       [1] "Start: 2023-03-06 13:31:53"
+                                                                                                                                       
+                                                                                                                                     

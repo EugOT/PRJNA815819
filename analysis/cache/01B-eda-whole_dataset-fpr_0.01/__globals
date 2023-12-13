@@ -1,0 +1,11 @@
+params	
+load	::	%>%	~	bind_rows	c	cb_fpr	Create_CellBender_Merged_Seurat	here	map	Read_CellBender_h5_Multi_Directory	Read10X_h5_Multi_Directory	sort	sprintf
+unnamed-chunk-1	::	@	%>%	Add_CellBender_Diff	c	head
+unnamed-chunk-2	::	%>%	c	combined_srt	Median_Stats
+unnamed-chunk-3	::	%>%	c	CellBender_Feature_Diff	combined_srt	head
+pl-ambient-correction-qc	CellBender_Diff_Plot	feature_diff
+pl-vln-qc	.	[[<-	%>%	Add_Cell_Complexity_Seurat	Add_Mito_Ribo_Seurat	brewer.pal	c	high_cutoff_complexity	high_cutoff_gene	high_cutoff_pc_hb	high_cutoff_pc_mt	high_cutoff_pc_ribo	high_cutoff_umis	low_cutoff_gene	low_cutoff_umis	PercentageFeatureSet	QC_Plots_Complexity	QC_Plots_Feature	QC_Plots_Genes	QC_Plots_Mito	QC_Plots_UMIs	reseed	rev	rownames	Store_Palette_Seurat	str_to_title	wrap_plots
+pl-scatter-qc	&	combined_srt	FeatureScatter	high_cutoff_gene	high_cutoff_pc_mt	high_cutoff_pc_ribo	high_cutoff_umis	low_cutoff_gene	low_cutoff_umis	QC_Plot_GenevsFeature	QC_Plot_UMIvsGene	reseed	scale_x_log10	scale_y_log10
+pl-scatter-qc-comb-mito	@	&	$	combined_srt	high_cutoff_gene	high_cutoff_pc_mt	high_cutoff_umis	low_cutoff_gene	low_cutoff_umis	QC_Plot_UMIvsGene	reseed	scale_x_log10	scale_y_log10
+pl-scatter-qc-comb-ribo	@	&	$	combined_srt	high_cutoff_gene	high_cutoff_pc_ribo	high_cutoff_umis	low_cutoff_gene	low_cutoff_umis	QC_Plot_UMIvsGene	reseed	scale_x_log10	scale_y_log10
+pl-scatter-qc-comb-complexity	@	&	$	combined_srt	high_cutoff_complexity	high_cutoff_gene	high_cutoff_umis	low_cutoff_gene	low_cutoff_umis	QC_Plot_UMIvsGene	reseed	scale_x_log10	scale_y_log10

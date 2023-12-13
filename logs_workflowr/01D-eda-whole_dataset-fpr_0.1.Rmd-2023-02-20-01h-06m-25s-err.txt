@@ -1,0 +1,12 @@
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+System has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+  |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
+  |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
+Error in Split_FeatureScatter(seurat_object = combined_srt, feature1 = "nFeature_RNA",  : 
+  The number of columns specified is greater than the number of meta data
+variables.
+• 'orig.ident' only contains 1 variables.
+ℹ Please adjust `num_columns` to be less than or equal to 1.
